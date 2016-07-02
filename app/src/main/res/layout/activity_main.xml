@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightDeepOrange"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_padding"
+        android:gravity="center"
+        android:text="@string/zero"
+        android:textColor="@color/colorPurple"
+        android:textSize="@dimen/activity_score"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="9">
+
+            <TextView
+                android:id="@+id/teamA_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/teamA"
+                android:textAllCaps="true"
+                android:textColor="@color/colorGreen"
+                android:textSize="@dimen/activity_name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/teamA_score"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/zero"
+                android:textColor="@color/colorGreen"
+                android:textSize="@dimen/activity_score"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/teamA_plus_one"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:layout_weight="2"
+                android:background="@color/colorDeepOrange"
+                android:text="@string/plus_one"
+                android:textColor="@color/colorGreen"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/teamA_plus_two"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:layout_weight="2"
+                android:background="@color/colorDeepOrange"
+                android:text="@string/plus_two"
+                android:textColor="@color/colorGreen"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/teamA_plus_three"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:layout_weight="2"
+                android:background="@color/colorDeepOrange"
+                android:text="@string/plus_three"
+                android:textColor="@color/colorGreen"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="9">
+
+            <TextView
+                android:id="@+id/teamB_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/teamB"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/activity_name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/teamB_score"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/zero"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/activity_score"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/teamB_plus_one"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:layout_weight="2"
+                android:background="@color/colorDeepOrange"
+                android:text="@string/plus_one"
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/teamB_plus_two"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:layout_weight="2"
+                android:background="@color/colorDeepOrange"
+                android:text="@string/plus_two"
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/teamB_plus_three"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:layout_weight="2"
+                android:background="@color/colorDeepOrange"
+                android:text="@string/plus_three"
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_padding"
+        android:background="@color/colorDeepOrange"
+        android:text="@string/reset_function"
+        android:textAllCaps="true"
+        android:textColor="@color/colorYellow"
+        android:textStyle="bold" />
+</LinearLayout>

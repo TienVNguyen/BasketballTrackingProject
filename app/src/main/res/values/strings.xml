@@ -1,0 +1,17 @@
+<!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+    <string name="app_name">BasketballTracking</string>
+    <string name="reset_function">Reset</string>
+    <string name="teamA">TeamA</string>
+    <string name="teamB">TeamB</string>
+    <string name="zero">0</string>
+    <string name="plus_one">+1</string>
+    <string name="plus_two">+2</string>
+    <string name="plus_three">+3</string>
+</resources>

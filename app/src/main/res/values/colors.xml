@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLightDeepOrange">#FBE9E7</color>
+    <color name="colorDeepOrange">#FF7043</color>
+    <color name="colorGreen">#00E676</color>
+    <color name="colorBlue">#2979FF</color>
+    <color name="colorYellow">#FFEA00</color>
+    <color name="colorPurple">#6A1B9A</color>
+</resources>
